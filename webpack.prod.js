@@ -20,7 +20,7 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/client/views/index.html',
-      filename: './index1.html',
+      filename: './index.html',
     }),
   ],
 };
